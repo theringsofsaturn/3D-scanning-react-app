@@ -35,7 +35,7 @@ body {
   margin: 1rem 0;
 }
 .nav-heading-text {
-  font-size: calc(22px + 0.5vw);
+  font-size: calc(25px + 0.4vw);
   font-weight: lighter;
   line-height: calc(36px + 0.4vw);
   font-family: Arial, Helvetica, sans-serif;
@@ -69,19 +69,21 @@ body {
   background: #555;
 }
 .about_us_sec {
-  padding: 50px;
+  padding: 70px;
   margin-top: 90px !important;
   margin-bottom: 30px !important;
   background: linear-gradient(
     90deg,
-    rgba(63, 58, 66, 1) 0%,
-    rgba(121, 63, 63, 1) 50%,
-    rgba(252, 176, 69, 1) 100%
+    #652884 0%,
+    #a83bce 25%,
+    #c3b1e9 50%,
+    #2e8bd9 75%,
+    #42186c 100%
   );
   display: flex;
   width: 70%;
   margin: 0 auto;
-  gap: 2rem;
+  gap: 3rem;
 }
 .about_us_sec .about_us_img,
 .about_us_sec .about_us_content {

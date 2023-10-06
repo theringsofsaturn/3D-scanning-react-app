@@ -4,9 +4,11 @@
   margin: 6rem auto;
   background: linear-gradient(
     90deg,
-    rgba(63, 58, 66, 1) 0%,
-    rgba(121, 63, 63, 1) 50%,
-    rgba(252, 176, 69, 1) 100%
+    #652884 0%,
+    #a83bce 25%,
+    #c3b1e9 50%,
+    #2e8bd9 75%,
+    #42186c 100%
   );
   padding: 70px 0;
   display: flex;

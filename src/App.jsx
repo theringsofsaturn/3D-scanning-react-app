@@ -10,6 +10,7 @@ import Gallary from "./Components/Gallary/Gallary";
 import ContactUs from "./Components/ContactUs/ContactUs";
 import Footer from "./Components/Footer/Footer";
 import Cta_section from "./Components/CTA/cta_section";
+
 function App() {
   return (
     <>
