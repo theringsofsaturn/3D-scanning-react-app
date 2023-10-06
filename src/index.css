@@ -35,7 +35,7 @@ body {
   margin: 1rem 0;
 }
 .nav-heading-text {
-  font-size: calc(25px + 0.4vw);
+  font-size: calc(22px + 0.5vw);
   font-weight: lighter;
   line-height: calc(36px + 0.4vw);
   font-family: Arial, Helvetica, sans-serif;
@@ -69,7 +69,7 @@ body {
   background: #555;
 }
 .about_us_sec {
-  padding: 70px;
+  padding: 50px;
   margin-top: 90px !important;
   margin-bottom: 30px !important;
   background: linear-gradient(
@@ -83,7 +83,7 @@ body {
   display: flex;
   width: 70%;
   margin: 0 auto;
-  gap: 3rem;
+  gap: 2rem;
 }
 .about_us_sec .about_us_img,
 .about_us_sec .about_us_content {
@@ -174,6 +174,7 @@ body {
 #home {
   background-image: url("./assets/bg-abstract-geometry.webp");
   background-attachment: fixed;
+  background-position: center center;
   background-size: cover;
 }
 .home_sec {

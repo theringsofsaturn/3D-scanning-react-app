@@ -4,7 +4,11 @@
   margin: 90px auto;
   border-radius: 20px;
   overflow: hidden;
-  background: rgba(252, 176, 69, 1);
+  background: linear-gradient(
+    90deg,
+    rgba(156, 30, 70, 1) 0%,
+    rgba(29, 38, 113, 1) 60%
+  );
   padding: 0;
   box-shadow: rgba(50, 50, 93, 0.25) 0 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
@@ -22,7 +26,11 @@
 .cta_image:after {
   content: "";
   display: block;
-  background: rgba(252, 176, 69, 1);
+  background: linear-gradient(
+    112deg,
+    rgba(156, 30, 70, 1) 14%,
+    rgba(29, 38, 113, 1) 60%
+  );
   -webkit-clip-path: polygon(100% 0, 0 0, 100% calc(100% - -10px));
   clip-path: polygon(100% 0, 0 0, 100% calc(100% - -10px));
   width: 195px;

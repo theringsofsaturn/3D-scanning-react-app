@@ -13,7 +13,6 @@ import OurVision from "./our_vision.jpg";
 import Benefits from "./benefits_backgroung.jpg";
 import BlacklLogo from "./Svg/black-logo.svg";
 import BannerImg from "./banner_image.jpg";
-import GeometryBg from "./bg-abstract-geometry.webp";
 
 export const images = {
   Sezondekor,
@@ -31,5 +30,4 @@ export const images = {
   Benefits,
   BlacklLogo,
   BannerImg,
-  GeometryBg,
 };

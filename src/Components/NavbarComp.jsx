@@ -69,7 +69,7 @@ menuLinks.forEach((link) => {
            
             <div className="logo">
               
-              <img src={whiteLogo} height="60" width="60" href='#home'/>
+              <img src={whiteLogo} height="80" width="80" href='#home'/>
             
             </div>
             <div className="menu-items">
