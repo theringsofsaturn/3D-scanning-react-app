@@ -1,0 +1,18 @@
+.benefits_sec {
+  padding: 6rem;
+  margin: 5rem 0;
+  background-image: url("../../assets/benefits_backgroung.jpg");
+  background-attachment: fixed;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.benefits_content_sec {
+  width: 60%;
+  margin: 0 auto;
+}
+.benefits_sec h1,
+.benefits_sec p {
+  text-shadow: 0px 0px 10px #fff;
+}

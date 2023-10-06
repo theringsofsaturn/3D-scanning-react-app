@@ -1,0 +1,118 @@
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 7rem;
+  margin: 4rem 0;
+}
+.gallery h1 {
+  color: #1a1a1a;
+}
+.card {
+  height: 260px;
+  width: 330px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: transform 0.5s ease-in-out;
+  transform-style: preserve-3d;
+  background-size: cover;
+  background-position: center;
+}
+h1 {
+  margin: 0;
+  font: 300 50px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  color: #1a1a1a;
+}
+.card__side {
+  height: 260px;
+  width: 330px;
+  transition: all 1s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+}
+.card__heading {
+  font: normal 300 36px/44px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  margin: 0;
+}
+.card__side_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 2rem;
+}
+.card__side--back {
+  background-image: linear-gradient(to right bottom, #ffc93c, #f07b3f);
+  transform: rotateY(180deg);
+}
+.card_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
+  gap: 2rem;
+  margin: 0 auto;
+}
+.card:hover .card__side--front {
+  transform: rotateY(-180deg);
+}
+
+.card:hover .card__side--back {
+  transform: rotateY(0);
+}
+
+.card__pic {
+  width: 330px;
+  height: 260px;
+  /* margin-bottom: 2rem; */
+  padding: 1rem;
+  /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); */
+  background-size: cover;
+}
+
+.btn {
+  font: normal 15px/26px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #fff;
+  border: none;
+  background-color: #00c1cf;
+  background-image: -webkit-linear-gradient(
+    left,
+    #00c1cf 0%,
+    #5472d2 50%,
+    #00c1cf 100%
+  );
+  background-image: linear-gradient(
+    to right,
+    #00c1cf 0%,
+    #5472d2 50%,
+    #00c1cf 100%
+  );
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  background-size: 200% 100%;
+  width: 220px;
+  display: block;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #5472d2;
+  border: none;
+  background-position: 100% 0;
+}

@@ -1,0 +1,42 @@
+.card-grid {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.Title {
+  margin: 0;
+  font-size: calc(20px + 0.5vw);
+  font-weight: 300;
+  line-height: calc(36px + 0.4vw);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  border-bottom: 0.1rem solid;
+  border-color: rgb(195, 195, 195);
+}
+.card {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+  margin-top: 10px;
+}
+.card:hover {
+  transform: scale(1.07);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+.Title:hover {
+  transform: scale(1.05);
+}

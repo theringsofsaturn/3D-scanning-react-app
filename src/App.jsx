@@ -1,21 +1,29 @@
-import { useState } from "react";
-import whiteLogo from "./assets/white-logo.svg";
-import reactLogo from "./assets/react.svg";
+import NavbarComp from "./Components/NavbarComp";
 import "./App.css";
-
+import HomeComp from "./Components/HomeComp";
+// import Carousel from "./Components/Carosal/Carousel";
+import PopUp from "./Components/Pop-Up/PopUp";
+import AboutUsComp from "./Components/AboutUsComp";
+// import OurWorkComp from "./Components/OurWork/OurWorkComp.jsx";
+import BenefitsComp from "./Components/Benefits/BenefitsComp";
+import Gallary from "./Components/Gallary/Gallary";
+import ContactUs from "./Components/ContactUs/ContactUs";
+import Footer from "./Components/Footer/Footer";
+import Cta_section from "./Components/CTA/cta_section";
 function App() {
   return (
     <>
-      <div>
-        <a href="https://thrid.eu" target="_blank">
-          <img src={whiteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo thrid" alt="Thrid logo" />
-        </a>
+      <NavbarComp />
+      <div className=" mt-0">
+        <HomeComp />
+        <AboutUsComp />
+        <PopUp />
+        <BenefitsComp />
+        <Gallary />
+        <Cta_section />
+        <ContactUs />
+        <Footer />
       </div>
-      <h1>Website under construction</h1>
-      <div className="card"></div>
     </>
   );
 }

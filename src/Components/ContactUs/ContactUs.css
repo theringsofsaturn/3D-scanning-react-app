@@ -1,0 +1,114 @@
+.contact-container {
+  display: flex;
+  justify-content: space-evenly;
+  background: linear-gradient(
+    90deg,
+    rgba(63, 58, 66, 1) 0%,
+    rgba(121, 63, 63, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  padding: 50px;
+  flex-wrap: wrap;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 20px;
+  background: #fff;
+  width: 400px;
+  height: 260px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  gap: 15px;
+}
+.contact:hover {
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.4);
+  transform: scale(1.05, 1.05);
+}
+.contact-container h4 {
+  font-size: 25px;
+  font-weight: 300;
+}
+.contact p {
+  cursor: pointer;
+  margin: 0;
+}
+.contact a {
+  color: #000000;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.contact p .MuiSvgIcon-root {
+  color: #000;
+  position: relative;
+  top: -3px;
+  left: 7px;
+}
+.contact a:hover {
+  color: rgba(252, 176, 69, 1);
+}
+.contact p:hover .MuiSvgIcon-root {
+  color: rgba(252, 176, 69, 1);
+}
+.contact p img {
+  position: relative;
+  width: 20px;
+  top: 2px;
+}
+/* Media query styles for 500px */
+@media (min-width: 375px) and (max-width: 499px) {
+  .contact {
+    width: 300px;
+  }
+}
+
+.container {
+  color: white;
+  font-size: 2.26rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -100px;
+}
+.first div {
+  background-color:#b0d40b;
+}
+.second div {
+  background-color:#CD921E;
+}
+.third div {
+  background-color:#c10528;
+}
+.animation > div > div {
+  padding: 0.25rem 0.75rem;
+  height:2.88rem;
+  margin-bottom: 2.81rem;
+  display:inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+}
+.animation {
+
+  height:50px;
+  overflow:hidden;
+  margin-left: 1rem;
+  /* margin-bottom: 50px; */
+}
+@keyframes text-animation {
+  0% {margin-top: 0;}
+  10% {margin-top: 0;}
+  20% {margin-top: -5.62rem;}
+  30% {margin-top: -5.62rem;}
+  40% {margin-top: -11.24rem;}
+  60% {margin-top: -11.24rem;}
+  70% {margin-top: -5.62rem;}
+  80% {margin-top: -5.62rem;}
+  90% {margin-top: 0;}
+  100% {margin-top: 0;}
+}

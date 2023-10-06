@@ -1,0 +1,125 @@
+/* Define default styles for your slider */
+.slider-container {
+  width: 100%;
+  margin: 6rem auto;
+  background: linear-gradient(
+    90deg,
+    rgba(63, 58, 66, 1) 0%,
+    rgba(121, 63, 63, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  padding: 70px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.slider-container h1 {
+  margin: 0 !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 30px;
+}
+.slide-heading {
+  font: normal 14px/22px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+}
+
+/* Default styles for the slides */
+.slide {
+  padding: 20px; /* Add spacing between slides as needed */
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  cursor: pointer;
+}
+.slide:hover .slide-image {
+  filter: blur(2px);
+}
+
+/* Default styles for the slide images */
+.slide-image {
+  display: block;
+  max-width: 150px;
+  max-height: 150px;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+/* Default styles for the slide headings */
+.slide-heading {
+  text-align: center;
+}
+.slick-next {
+  right: -15px !important;
+}
+
+/* Media query styles for 1600px */
+@media (min-width: 1600px) {
+  .slide {
+    /* Adjust slide width for 5 slides at a time */
+    width: 20%;
+  }
+}
+
+/* Media query styles for 1400px */
+@media (min-width: 1400px) and (max-width: 1599px) {
+  .slide {
+    /* Adjust slide width for 4 slides at a time */
+    width: 25%;
+  }
+}
+
+/* Media query styles for 1200px */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .slide {
+    /* Adjust slide width for 3 slides at a time */
+    width: 33.33%;
+  }
+}
+
+/* Media query styles for 1024px */
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .slide {
+    /* Adjust slide width for 3 slides at a time */
+    width: 33.33%;
+  }
+  .slider-container h1 {
+    font-size: 45px;
+  }
+}
+
+/* Media query styles for 767px */
+@media (min-width: 768px) and (max-width: 979px) {
+  .slide {
+    /* Adjust slide width for 2 slides at a time */
+    width: 50%;
+  }
+  .slider-container h1 {
+    font-size: 40px;
+  }
+}
+
+/* Media query styles for 500px */
+@media (min-width: 500px) and (max-width: 767px) {
+  .slide {
+    /* Adjust slide width for 1 slide at a time */
+    width: 100%;
+  }
+  .slider-container h1 {
+    font-size: 35px;
+  }
+}
+
+/* Media query styles for 375px */
+@media (min-width: 375px) and (max-width: 499px) {
+  .slide {
+    /* Adjust slide width for 1 slide at a time */
+    width: 100%;
+  }
+  .slider-container h1 {
+    font-size: 30px;
+  }
+}

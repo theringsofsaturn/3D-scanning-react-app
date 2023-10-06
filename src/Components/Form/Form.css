@@ -1,0 +1,72 @@
+.contact-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: transparent;
+}
+.contact-form-container h4 {
+  font-size: 25px;
+  font-weight: 300;
+}
+.contact-form {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 5px;
+  /* background-color: #f07b3f; */
+}
+.input{
+  border: 0px;
+}
+.textarea{
+  height: 100px;
+  width: 100px;
+}
+input[type="text"]:focus-visible,
+input[type="email"]:focus-visible,
+input[type="tel"]:focus-visible,
+textarea:focus-visible {
+  border: 1px solid #f07b3f;
+  outline: none;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid black;
+  border-radius: 2px;
+  font-size: 16px;
+  background: transparent;
+  color: #000;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  display: block;
+  border-radius: 5px;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: inherit;
+  background-image: linear-gradient(to right bottom, #ffc93c, #f07b3f);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out 0s;
+}
+button:hover {
+  background-image: linear-gradient(to right bottom, #f07b3f, #ffc93c);
+  border: none;
+  border-color: none !important;
+}
+.error {
+  text-align: left;
+  font-size: 10px;
+  color: red;
+  margin-top: 0;
+}

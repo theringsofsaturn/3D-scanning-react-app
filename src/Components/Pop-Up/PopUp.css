@@ -1,0 +1,70 @@
+/* styles.css */
+
+#Modal_Box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.25);
+  padding: 24px;
+  text-align: center;
+  color: #000;
+  background: linear-gradient(48deg, #fff 0%, #e5efe9 100%);
+  max-height: 90vh;
+  max-width: 500px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#transition-modal-title {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 400;
+}
+
+#transition-modal-description {
+  font-size: 1rem; /* Increase description font size */
+  color: #666; /* Slightly lighter text color */
+  line-height: 1.4; /* Improve readability with increased line height */
+}
+
+/* Add transition for smoother appearance */
+#Modal_Box {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+/* Style close button */
+#close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #666;
+}
+
+#close-button:hover {
+  color: #000; /* Darken close button color on hover */
+}
+#Modal_Box img {
+  width: 130px;
+  height: 130px;
+}
+/* Media query styles for 500px */
+@media (min-width: 500px) and (max-width: 767px) {
+  #Modal_Box {
+    width: 300px;
+  }
+}
+@media (min-width: 375px) and (max-width: 499px) {
+  #Modal_Box {
+    width: 250px;
+  }
+}
