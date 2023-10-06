@@ -170,8 +170,9 @@ body {
   box-shadow: -9px 11px 18px 0px rgba(0, 0, 0, 0.3);
 }
 #home {
-  background-image: url("./assets/banner_image.jpg");
+  background-image: url("./assets/bg-abstract-geometry.webp");
   background-attachment: fixed;
+  background-size: cover;
 }
 .home_sec {
   background-color: #ffffffad;
