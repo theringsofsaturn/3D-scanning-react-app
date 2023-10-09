@@ -28,8 +28,8 @@ body {
 }
 .heading-text {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-  font-size: calc(40px + 0.5vw);
-  font-weight: 400;
+  font-size: calc(26px + 0.5vw);
+  font-weight: 700;
   line-height: calc(36px + 0.4vw);
   font-family: "Raleway", Helvetica, Arial, Lucida, sans-serif;
   color: rgb(255, 255, 255);
@@ -180,11 +180,13 @@ body {
   background-size: cover;
 }
 .home_sec {
-  background-color: #ffffffad;
+  background-color: rgba(255, 255, 255, 0.5) !important;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
   border-radius: 5px;
 }
 .home_sec p,

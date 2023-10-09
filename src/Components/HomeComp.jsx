@@ -43,14 +43,13 @@ function HomeComp() {
           backgroundColor: "rgba(255, 255, 255, 0.8)",
           borderRadius: "10px",
           padding: "20px",
-          backdropFilter: "blur(10px)",
         }}
       >
-        <img className=" w-[200px]" src={images.BlacklLogo} alt="thirD logo" />
-        <h1 className="heading-text animate__animated animate__zoomInDown backdrop-blur-md bg-opacity-60 bg-white p-4 rounded-lg">
+        <img className=" w-[300px]" src={images.BlacklLogo} alt="thirD logo" />
+        <h1 className="heading-text animate__animated animate__zoomInDown  bg-opacity-60 p-4 rounded-lg">
           Unlock the Future of Space Exploration with ThriD
         </h1>
-        <p className="content-text animate__animated animate__fadeInUp backdrop-blur-md bg-opacity-60 bg-white p-4 rounded-lg">
+        <p className="content-text animate__animated animate__fadeInUp  bg-opacity-60 p-4 rounded-lg">
           Immersive 3D Scanning Technology for Every Industry
         </p>
       </div>
