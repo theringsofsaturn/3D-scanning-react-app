@@ -8,6 +8,7 @@
     #2e8bd9 75%,
     #42186c 100%
   );
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,6 +44,7 @@
 .social_media_icons {
   display: flex;
   flex-direction: column;
+  padding-bottom: 30px;
 }
 .social_media_icons h1 {
   font-size: 25px;
@@ -125,7 +127,7 @@
   color: #e1306c;
 }
 .wrapper .button:nth-child(4) span {
-  color: #333;
+  color: #ff0000;
 }
 .wrapper .button:nth-child(5) span {
   color: #ff0000;

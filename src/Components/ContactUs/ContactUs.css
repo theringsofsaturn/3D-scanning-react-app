@@ -9,7 +9,8 @@
     #2e8bd9 75%,
     #42186c 100%
   );
-  padding: 50px;
+
+  padding: 50px 0px;
   flex-wrap: wrap;
 }
 .contact {

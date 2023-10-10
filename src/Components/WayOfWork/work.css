@@ -1,0 +1,51 @@
+.heading-text {
+  color: #1a1a1a;
+}
+
+.container {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h4 {
+  color: black;
+  text-transform: none;
+  font-size: calc(15px + 0.5vw);
+  line-height: calc(23px + 0.4vw);
+  font-weight: bold;
+  text-align: left;
+}
+p {
+  color: black;
+  text-transform: none;
+}
+.container1 {
+  max-width: 80%;
+  margin: 4rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.right {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+.left {
+  width: 40%;
+}
+.section {
+  height: 180px;
+}
+.img {
+  height: 600px;
+  width: 500px;
+  border-radius: 10px;
+}
+.para {
+  text-align: left;
+}
+.icon {
+  margin-right: 8px;
+}

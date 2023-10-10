@@ -5,7 +5,7 @@
   justify-content: center;
   flex-direction: column;
   gap: 4rem;
-  margin: 3rem 0;
+  margin: 3rem 0 6rem;
 }
 .gallery h1 {
   color: #1a1a1a;
@@ -140,7 +140,10 @@ p {
   font-size: 1.125rem;
   color: var(--black);
 }
-
+.card__description {
+  color: #fff;
+  text-align: left;
+}
 .card__button:focus {
   outline: 2px solid black;
   outline-offset: -5px;

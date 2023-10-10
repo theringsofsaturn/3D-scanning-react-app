@@ -1,9 +1,9 @@
 .benefits_sec {
-  padding: 6rem;
-  margin: 5rem 0;
+  padding: 3rem;
+  margin: 3rem 0;
   background-image: url("../../assets/benefits_backgroung.jpg");
   background-attachment: fixed;
-  height: 500px;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;

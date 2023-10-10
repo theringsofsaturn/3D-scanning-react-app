@@ -36,14 +36,14 @@ const ContactUs = () => {
               </a>
             </p>
           </div>
-          <div class="container">
+          {/* <div class="container">
   <p>We Are </p>
   <section class="animation">
     <div class="first"><div>Versatile</div></div>
     <div class="second"><div>Elegant</div></div>
     <div class="third"><div>3D Experts</div></div>
   </section>
-</div>
+</div> */}
         </div>
         
       </div>

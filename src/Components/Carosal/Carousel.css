@@ -1,7 +1,7 @@
 /* Define default styles for your slider */
 .slider-container {
   width: 100%;
-  margin: 6rem auto;
+  margin: 3rem auto;
   background: linear-gradient(
     90deg,
     #652884 0%,
@@ -10,6 +10,7 @@
     #2e8bd9 75%,
     #42186c 100%
   );
+
   padding: 70px 0;
   display: flex;
   flex-direction: column;
