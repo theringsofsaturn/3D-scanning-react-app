@@ -6,7 +6,7 @@ import "./cta_section.css";
 const cta_section = () => {
   return (
     <>
-      <div className="cta">
+      <div className="cta" id="get-in-touch">
         <div className="cta_section">
           <div className="cta_image">
             <img src={images.AboutUs} alt="cta image" />

@@ -8,7 +8,7 @@ import BackupTableRoundedIcon from "@mui/icons-material/BackupTableRounded";
 function Work() {
   return (
     <>
-      <h1 className="services_heading">How It Works</h1>
+      <h1 className="services_heading" id="how-works">How It Works</h1>
       <div className="container1">
         <div className="left">
           <div style={{ width: "auto" }}>

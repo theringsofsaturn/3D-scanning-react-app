@@ -3,7 +3,7 @@ import "./BenefitsComp.css";
 function BenefitsComp() {
   return (
     <>
-      <div className="benefits_sec">
+      <div className="benefits_sec" id="benefits">
         <div className="benefits_content_sec">
           <h1 className="heading-text">Benefits</h1>
           <p className="content-text">

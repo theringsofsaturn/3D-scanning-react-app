@@ -139,7 +139,7 @@ const Carousel = () => {
 
   return (
     <>
-      <div className="slider-container">
+      <div className="slider-container" id="services">
         <h1
           className="heading-text animate__animated animate__fadeIn"
           style={{ color: "white" }}
