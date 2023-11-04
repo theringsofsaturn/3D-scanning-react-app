@@ -16,6 +16,45 @@ const PopUp = ({ slideData, handleClose }) => {
     // Handle the case when slideData is undefined
     return null; // or you can render a loading indicator or an error message
   }
+
+  const DescriptionText = ({ description }) => {
+    // Convert new lines to array and render each line
+    const descriptionLines = description.split("\n").map((line, index) => (
+      <span key={index}>
+        {line}
+        <br />
+      </span>
+    ));
+
+    return <div className="text-container">{descriptionLines}</div>;
+  };
+
+  const PerformanceText = ({ performance }) => {
+    // Regex to match percentage patterns
+    const percentageRegex = /(\d+%)/g;
+
+    const performanceLines = performance.split(". ").map((line, index, arr) => {
+      const parts = line.split(percentageRegex);
+      return (
+        <span key={index}>
+          {parts.map((part, i) =>
+            percentageRegex.test(part) ? (
+              <span key={i} className="performance-percentage">
+                {part}
+              </span>
+            ) : (
+              part
+            )
+          )}
+          {index < arr.length - 1 ? ". " : ""}
+          <br />
+        </span>
+      );
+    });
+
+    return <div className="text-container">{performanceLines}</div>;
+  };
+
   return (
     <>
       <Modal
@@ -31,15 +70,19 @@ const PopUp = ({ slideData, handleClose }) => {
       >
         <Fade in={true}>
           <Box id="Modal_Box">
-            <Typography id="transition-modal-title" variant="h6" component="h2">
-              {slideData.heading}
-            </Typography>
-            <img src={slideData.imageUrl} alt={`Slide`} />
-            <Typography id="transition-modal-description">
-              {slideData.description}
-            </Typography>
-
-            {/* Additional content can be added here */}
+            <div className="modal-content">
+              <div className="left-section">
+                <DescriptionText description={slideData.description} />
+              </div>
+              <div className="right-section">
+                <div className="performance-text">
+                  <Typography variant="body2">
+                    <PerformanceText performance={slideData.performance} />
+                  </Typography>
+                </div>
+                <iframe src={slideData.videoUrl} title="example video" />
+              </div>
+            </div>
           </Box>
         </Fade>
       </Modal>

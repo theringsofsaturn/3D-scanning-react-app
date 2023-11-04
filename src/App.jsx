@@ -20,9 +20,9 @@ function App() {
       <NavbarComp />
       <div className=" mt-0">
         <HomeComp />
-        <Services />
         <AboutUsComp />
         <PopUp />
+        <Services />
         <BenefitsComp />
         <Gallery />
         <Work />

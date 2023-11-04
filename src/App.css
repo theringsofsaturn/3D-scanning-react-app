@@ -5,14 +5,20 @@
 }
 
 .sticky {
-  position: fixed; /* Fix the position to the top of the viewport */
-  top: 0; /* Align the navbar to the top */
-  left: 0; /* Align the navbar to the left */
-  width: 100%; /* Make the navbar take the full width of the screen */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   z-index: 99;
-  transition: all 0.3s ease-in-out; /* Add transition for smoothness */
   background-color: rgba(0, 0, 0, 0.9);
+  transition: background-color 0.3s ease;
 }
+
+.sticky.scrolled {
+  /* background-color: rgba(0, 0, 0, 0.7) !important; */
+  background-color: red !important;
+}
+
 .container {
   /* max-width: 1050px; */
   height: 100%;
@@ -54,6 +60,7 @@
 
 .navbar .nav-container a:hover {
   font-weight: bolder;
+  color: #a83bce;
 }
 
 .nav-container {

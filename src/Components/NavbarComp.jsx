@@ -6,10 +6,31 @@ import whiteLogo from "./white-logo.svg";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import SideBarComp from "./SideBarComp";
+import { useEffect } from "react";
 
 function NavbarComp() {
+  useEffect(() => {
+    const handleScroll = () => {
+      console.log("Scrolling");
+      if (window.scrollY > 50) {
+        navbar.classList.add("scrolled");
+        console.log("Added scrolled"); // Debug
+      } else {
+        navbar.classList.remove("scrolled");
+        console.log("Removed scrolled"); // Debug
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <nav className="sticky">
+    <nav className="sticky" id="navbar">
       <div className="navbar">
         <div className="container-fluid nav-container">
           <div className="logo">
@@ -23,7 +44,7 @@ function NavbarComp() {
               <a href="#about">About Us</a>{" "}
             </li>
             <li>
-              <a href="#services">Our Services</a>{" "}
+              <a href="#services">Sector Applications</a>{" "}
             </li>
             <li>
               <a href="#offerings">Our Offerings</a>{" "}
@@ -41,7 +62,7 @@ function NavbarComp() {
               <a href="#how-works">How it Works</a>{" "}
             </li>
             <li>
-              <a href="#get-in-touch">Get in Touch</a>{" "}
+              <a href="#get-in-touch">Request Demo</a>{" "}
             </li>
             <li>
               <a href="#contact">Contact Us</a>{" "}

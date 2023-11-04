@@ -3,10 +3,8 @@ import React from "react";
 import CopyrightIcon from "@mui/icons-material/Copyright";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import EmailRoundedIcon from "@mui/icons-material/EmailRounded";
-import YouTubeIcon from "@mui/icons-material/YouTube";
 
 // css file
 import "./Footer.css";
@@ -35,7 +33,7 @@ const Footer = () => {
             <div className="button">
               <div className="icon">
                 <a
-                  href="https://www.facebook.com/techinsider/"
+                  href="https://www.facebook.com/profile.php?id=61552525976609"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -47,19 +45,7 @@ const Footer = () => {
             <div className="button">
               <div className="icon">
                 <a
-                  href="https://twitter.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <TwitterIcon sx={{ fontSize: 40 }} />
-                </a>
-              </div>
-              <span>Twitter</span>
-            </div>
-            <div className="button">
-              <div className="icon">
-                <a
-                  href="https://www.instagram.com/graphicdesignersgroup/"
+                  href="https://www.instagram.com/thrid.eu/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -68,20 +54,25 @@ const Footer = () => {
               </div>
               <span>Instagram</span>
             </div>
-
             <div className="button">
-              <a href="mailto:emiliankasemi@gmail.com">
+              <div className="icon">
+                <a
+                  href="https://www.linkedin.com/in/thrid-eu-42706b296/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <LinkedInIcon sx={{ fontSize: 40 }} />
+                </a>
+              </div>
+              <span>Instagram</span>
+            </div>
+            <div className="button">
+              <a href="mailto:info@thrid.eu">
                 <div className="icon">
                   <EmailRoundedIcon sx={{ fontSize: 40 }} />
                 </div>
               </a>
               <span>Gmail</span>
-            </div>
-            <div className="button">
-              <div className="icon">
-                <YouTubeIcon sx={{ fontSize: 40 }} />
-              </div>
-              <span>Youtube</span>
             </div>
           </div>
         </div>
@@ -95,7 +86,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             classNameName="animate__animated animate__flash"
           >
-            The Rings of Saturn
+            Emilian Kasemi
           </a>
         </div>
       </div>
