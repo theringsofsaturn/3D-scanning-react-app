@@ -1,0 +1,108 @@
+.features-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.feature {
+  flex-basis: calc(25% - 1rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+}
+
+.features-section {
+  padding: 4rem 0;
+  text-align: center;
+  background: #f9f9f9; /* Consider a slight pattern or gradient if it fits the theme */
+}
+
+.features-headline {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+  font-weight: 600;
+  text-transform: uppercase; /* Adds a bit of style to the headline */
+}
+
+.features-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.feature {
+  flex-basis: calc(25% - 2rem);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  border: 1px solid #e6e6e6; /* subtle border */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+}
+
+.feature-logo {
+  width: 100px; /* Adjust if needed */
+  margin-bottom: 1rem;
+}
+
+.feature-title {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.feature-description {
+  font-size: 1.1rem;
+  color: #666;
+  padding: 0 1rem;
+}
+
+@media (max-width: 768px) {
+  .feature {
+    flex-basis: calc(50% - 1rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .feature {
+    flex-basis: 100%;
+  }
+}
+
+.feature-logo {
+  width: 80px;
+  margin-bottom: 1rem;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.feature-description {
+  font-size: 1rem;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .feature {
+    flex-basis: calc(50% - 1rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .feature {
+    flex-basis: 100%;
+  }
+}

@@ -1,24 +1,46 @@
-// css file
+// BenefitsComp.jsx:
 import "./BenefitsComp.css";
+
 function BenefitsComp() {
+  // Data for statistics could be sourced from props, state, or a static data file
+  const stats = [
+    {
+      title: "Increase Sales",
+      number: "14%",
+      description: "by inspiring more customers to visiting your property",
+    },
+    {
+      title: "Increase Sales",
+      number: "14%",
+      description: "by inspiring more customers to visiting your property",
+    },
+    {
+      title: "Increase Sales",
+      number: "14%",
+      description: "by inspiring more customers to visiting your property",
+    },
+    {
+      title: "Increase Sales",
+      number: "14%",
+      description: "by inspiring more customers to visiting your property",
+    },
+  ];
+
   return (
-    <>
-      <div className="benefits_sec" id="benefits">
-        <div className="benefits_content_sec">
-          <h1 className="heading-text">Benefits</h1>
-          <p className="content-text">
-            <strong>Unlocking Efficiency:</strong> ThriD is your key to
-            unlocking efficiency. Our 3D scans save time, reduce costs, and
-            enhance decision-making processes. Transparency and Precision:
-            Experience transparency with{" "}
-          </p>
-          <p className="content-text">
-            ThriD; there are no hidden costs. Our scans offer precision down to
-            the last detail.
-          </p>
+    <section className="benefits_sec" id="benefits">
+      <div>
+        <h1 className="heading-text">Benefits</h1>
+        <div className="benefits_stats">
+          {stats.map((stat, index) => (
+            <article key={index} className="stat_card">
+              <h2 className="stat_title">{stat.title}</h2>
+              <p className="stat_number">{stat.number}</p>
+              <p className="stat_description">{stat.description}</p>
+            </article>
+          ))}
         </div>
       </div>
-    </>
+    </section>
   );
 }
 

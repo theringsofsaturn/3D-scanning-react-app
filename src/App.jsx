@@ -13,6 +13,7 @@ import Gallery from "./Components/Gallery_two/Gallery";
 // import AboutUsComp from "./Components/AboutUsTwo";
 import Work from "./Components/WayOfWork/work";
 import Services from "./Components/Services";
+import FeaturesComp from "./Components/Features/FeaturesComp";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <BenefitsComp />
         <Gallery />
         <Work />
+        <FeaturesComp />
         <Cta_section />
         <ContactUs />
         <Footer />

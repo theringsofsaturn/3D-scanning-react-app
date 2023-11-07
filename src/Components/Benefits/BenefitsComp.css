@@ -3,10 +3,11 @@
   margin: 3rem 0;
   background-image: url("../../assets/benefits_backgroung.jpg");
   background-attachment: fixed;
-  height: 400px;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 .benefits_content_sec {
   width: 60%;
@@ -15,4 +16,57 @@
 .benefits_sec h1,
 .benefits_sec p {
   text-shadow: 0px 0px 10px #fff;
+}
+
+.benefits_stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.stat_card {
+  flex: 0 1 22%;
+  margin: 1rem;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.stat_card:hover {
+  transform: translateY(-5px);
+}
+
+.stat_title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.stat_number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+.stat_description {
+  font-size: 1rem;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .stat_card {
+    flex-basis: 48%;
+  }
+}
+
+@media (max-width: 480px) {
+  .stat_card {
+    flex-basis: 100%;
+  }
 }
