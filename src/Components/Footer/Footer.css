@@ -134,7 +134,7 @@
 }
 .center-div {
   display: flex;
-  justify-content: center; /* Horizontal centering */
+  justify-content: center; 
   align-items: center;
   /* position: absolute; */
   /* top: 50%; */

@@ -90,10 +90,9 @@ const PopUp = ({ slideData, handleClose }) => {
   );
 };
 
-// Define PropTypes for validation
 PopUp.propTypes = {
-  slideData: PropTypes.object.isRequired, // Ensure slideData is an object and required
-  handleClose: PropTypes.func.isRequired, // Ensure handleClose is a function and required
+  slideData: PropTypes.object.isRequired,
+  handleClose: PropTypes.func.isRequired,
 };
 
 export default PopUp;

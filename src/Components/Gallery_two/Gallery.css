@@ -61,7 +61,6 @@ p {
   margin-top: var(--flow-space, 1em);
 }
 
-/* CARD COMPONENT */
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -114,7 +113,7 @@ p {
 .card__title {
   position: relative;
   width: fit-content;
-  width: -moz-fit-content; /* Prefijo necesario para Firefox  */
+  width: -moz-fit-content;
 }
 
 .card__title::after {
@@ -130,7 +129,7 @@ p {
 .card__button {
   padding: 0.75em 1.6em;
   width: fit-content;
-  width: -moz-fit-content; /* Prefijo necesario para Firefox  */
+  width: -moz-fit-content;
   font-variant: small-caps;
   font-weight: bold;
   border-radius: 0.45em;

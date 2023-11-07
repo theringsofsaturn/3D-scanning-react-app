@@ -1,4 +1,3 @@
-// FeaturesComp.jsx:
 import React from "react";
 import InfoPointLogo from "../../assets/features/InfoPoint.svg";
 import SchematicFloorLogo from "../../assets/features/SchematicFloorPlans.svg";
@@ -14,13 +13,13 @@ const featuresData = [
   {
     title: "Info Point",
     description:
-      "Generate schematic floor plans of your project with the push of a button",
+      "Embed annotations and media in your digital twin to highlight key features of your project",
     logo: InfoPointLogo,
   },
   {
     title: "Schematic Floor Plans",
     description:
-      "Embed annotations and media in your digital twin, to highlight key features of your project.",
+      "Generate schematic floor plans of your project with the push of a button.",
     logo: SchematicFloorLogo,
   },
   {
@@ -37,20 +36,19 @@ const featuresData = [
   },
   {
     title: "High Definition Photos",
-    description:
-      "4K print quality photography of hyper realistic renderings (only with Pro2 camera).",
+    description: "4K print quality photography of hyper realistic renderings.",
     logo: HighDefinitionLogo,
   },
   {
     title: "Point Clouds",
     description:
-      "A bundle of digital assets, you can download, edit, and import into 3rd party programs.",
+      "A bundle of digital assets you can download in file formats like .XYZ. .OBJ, E57.",
     logo: PointCloudLogo,
   },
   {
     title: "Guided Tours",
     description:
-      "A bundle of digital assets, you can download, edit, and import into 3rd party programs.",
+      "Automatically generate video tours that highlight attributes of your space.",
     logo: GuidedToursLogo,
   },
   {

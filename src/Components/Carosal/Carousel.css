@@ -1,4 +1,3 @@
-/* Define default styles for your slider */
 .slider-container {
   width: 100%;
   margin: 3rem auto;
@@ -29,9 +28,8 @@
   font: normal 14px/22px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
 }
 
-/* Default styles for the slides */
 .slide {
-  padding: 20px; /* Add spacing between slides as needed */
+  padding: 20px;
   display: flex !important;
   align-items: center;
   justify-content: center;
@@ -43,7 +41,6 @@
   filter: blur(2px);
 }
 
-/* Default styles for the slide images */
 .slide-image {
   display: block;
   max-width: 150px;
@@ -51,7 +48,6 @@
   transition: all 0.2s ease-in-out 0s;
 }
 
-/* Default styles for the slide headings */
 .slide-heading {
   text-align: center;
 }
@@ -59,26 +55,20 @@
   right: -15px !important;
 }
 
-/* Media query styles for 1600px */
 @media (min-width: 1600px) {
   .slide {
-    /* Adjust slide width for 5 slides at a time */
     width: 20%;
   }
 }
 
-/* Media query styles for 1400px */
 @media (min-width: 1400px) and (max-width: 1599px) {
   .slide {
-    /* Adjust slide width for 4 slides at a time */
     width: 25%;
   }
 }
 
-/* Media query styles for 1200px */
 @media (min-width: 1200px) and (max-width: 1399px) {
   .slide {
-    /* Adjust slide width for 3 slides at a time */
     width: 33.33%;
   }
 }
@@ -86,7 +76,6 @@
 /* Media query styles for 1024px */
 @media (min-width: 1024px) and (max-width: 1199px) {
   .slide {
-    /* Adjust slide width for 3 slides at a time */
     width: 33.33%;
   }
   .slider-container h1 {
@@ -94,10 +83,8 @@
   }
 }
 
-/* Media query styles for 767px */
 @media (min-width: 768px) and (max-width: 979px) {
   .slide {
-    /* Adjust slide width for 2 slides at a time */
     width: 50%;
   }
   .slider-container h1 {
@@ -105,10 +92,8 @@
   }
 }
 
-/* Media query styles for 500px */
 @media (min-width: 500px) and (max-width: 767px) {
   .slide {
-    /* Adjust slide width for 1 slide at a time */
     width: 100%;
   }
   .slider-container h1 {
@@ -116,10 +101,8 @@
   }
 }
 
-/* Media query styles for 375px */
 @media (min-width: 375px) and (max-width: 499px) {
   .slide {
-    /* Adjust slide width for 1 slide at a time */
     width: 100%;
   }
   .slider-container h1 {

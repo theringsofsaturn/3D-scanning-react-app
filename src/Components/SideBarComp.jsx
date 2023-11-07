@@ -1,8 +1,6 @@
 /* eslint-disable react/prop-types */
 import ClearIcon from "@mui/icons-material/Clear";
 
-// css file
-
 const data = [
   {
     Title: "Home",

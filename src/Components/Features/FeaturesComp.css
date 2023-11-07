@@ -18,7 +18,7 @@
 .features-section {
   padding: 4rem 0;
   text-align: center;
-  background: #f9f9f9; /* Consider a slight pattern or gradient if it fits the theme */
+  background: #f9f9f9;
 }
 
 .features-headline {
@@ -26,7 +26,7 @@
   margin-bottom: 2rem;
   color: #333;
   font-weight: 600;
-  text-transform: uppercase; /* Adds a bit of style to the headline */
+  text-transform: uppercase;
 }
 
 .features-container {
@@ -40,8 +40,8 @@
 
 .feature {
   flex-basis: calc(25% - 2rem);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* subtle shadow */
-  border: 1px solid #e6e6e6; /* subtle border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e6e6e6;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .feature-logo {
-  width: 100px; /* Adjust if needed */
+  width: 100px;
   margin-bottom: 1rem;
 }
 

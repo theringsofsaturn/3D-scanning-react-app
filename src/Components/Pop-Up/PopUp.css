@@ -177,7 +177,6 @@
   display: none;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   #Modal_Box {
     width: 90%;

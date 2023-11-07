@@ -14,10 +14,10 @@ function NavbarComp() {
       console.log("Scrolling");
       if (window.scrollY > 50) {
         navbar.classList.add("scrolled");
-        console.log("Added scrolled"); // Debug
+        // console.log("Added scrolled"); // Debug
       } else {
         navbar.classList.remove("scrolled");
-        console.log("Removed scrolled"); // Debug
+        // console.log("Removed scrolled"); // Debug
       }
     };
 
