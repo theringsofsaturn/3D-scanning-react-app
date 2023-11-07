@@ -23,24 +23,18 @@ If you do not have Node.js installed, please follow the instructions on the offi
 
 First, clone the repository to your local machine using Git:
 
-\```
-git clone https://github.com/[your-username]/thrid-eu.git
-cd thrid-eu
-\```
+```git clone https://github.com/[your-username]/thrid-eu.git```
+```cd thrid-eu```
 
 Once inside the project directory, install the necessary dependencies:
 
-\```
-npm install
-\```
+```npm install```
 
 ## Running the Application
 
 To start the application in development mode, run:
 
-\```
-npm run dev
-\```
+```npm run dev```
 
 This will start the development server and the application will be accessible via [http://localhost:3000](http://localhost:3000) by default.
 
@@ -48,9 +42,7 @@ This will start the development server and the application will be accessible vi
 
 To build the application for production, run:
 
-\```
-npm run build
-\```
+```npm run build```
 
 The production-ready files will be generated in the `dist` directory at the root of the project.
 
@@ -58,9 +50,7 @@ The production-ready files will be generated in the `dist` directory at the root
 
 To ensure your code matches the project's coding standards, run the linter:
 
-\```
-npm run lint
-\```
+```npm run lint```
 
 ## Support
 
