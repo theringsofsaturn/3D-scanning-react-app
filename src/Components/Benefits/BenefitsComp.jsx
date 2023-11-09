@@ -7,22 +7,23 @@ function BenefitsComp() {
     {
       title: "Increase Sales",
       number: "14%",
-      description: "by inspiring more customers to visiting your property",
+      description: "by inspiring more customers to visiting your property.",
     },
     {
-      title: "Increase Sales",
-      number: "14%",
-      description: "by inspiring more customers to visiting your property",
+      title: "Decrease travel time and cost",
+      number: "50%",
+      description: "by removing the need for site visits.",
     },
     {
-      title: "Increase Sales",
-      number: "14%",
-      description: "by inspiring more customers to visiting your property",
+      title: "Cut project time",
+      number: "30%",
+      description: "by letting teams accesing a property anytime - anywhere.",
     },
     {
-      title: "Increase Sales",
-      number: "14%",
-      description: "by inspiring more customers to visiting your property",
+      title: "Reduce carbon emissions",
+      number: "16%",
+      description:
+        "by eliminating the need for car and plane travel to operate more sustainably.",
     },
   ];
 

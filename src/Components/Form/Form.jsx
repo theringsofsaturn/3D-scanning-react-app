@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
-import React, { useState , useRef} from "react";
-import emailjs from '@emailjs/browser';
+import React, { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 import "./Form.css";
 
 const Form = () => {
@@ -51,18 +51,28 @@ const Form = () => {
     }
 
     if (Object.keys(newErrors).length === 0) {
-      // Form is valid, you can submit the data here
-      console.log("Form submitted:", formData);
+      // Form is valid, proceed to send email
+      emailjs
+        .sendForm(
+          "emiliankasemi@gmail.com",
+          "template_thrid",
+          form.current,
+          "5zVfhEo2E4976_CIU"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            alert("Message sent successfully!");
+            setFormData({ name: "", email: "", telephone: "", message: "" });
+          },
+          (error) => {
+            console.log(error.text);
+            alert("Failed to send the message, please try again later.");
+          }
+        );
     } else {
       setErrors(newErrors);
     }
-    emailjs.sendForm('service_4sarjqs','template_nd6s5rr',form.current,'3kRGWmzr-2Dr3uqIy')
-    .then((result) => {
-      console.log(result.text);
-  }, (error) => {
-      console.log(error.text);
-  });
-  e.target.reset();
   };
 
   const isValidEmail = (email) => {
@@ -75,13 +85,13 @@ const Form = () => {
       <div className="contact-form-container">
         <h4 className="heading-text">Leave a message</h4>
         <form ref={form} className="contact-form" onSubmit={handleSubmit}>
-        {/* <div class="input-data">
+          {/* <div class="input-data">
                <input type="text" required/>
                <div class="underline"></div>
                <label for="">First Name</label>
             </div> */}
           <input
-          className="input"
+            className="input"
             type="text"
             name="name"
             placeholder="Name"
@@ -90,7 +100,7 @@ const Form = () => {
           />
           {errors.name && <p className="error">{errors.name}</p>}
           <input
-          className="input"
+            className="input"
             type="email"
             name="email"
             placeholder="Email"
@@ -99,7 +109,7 @@ const Form = () => {
           />
           {errors.email && <p className="error">{errors.email}</p>}
           <input
-          className="input"
+            className="input"
             type="tel"
             name="telephone"
             placeholder="Telephone"
@@ -108,7 +118,7 @@ const Form = () => {
           />
           {errors.telephone && <p className="error">{errors.telephone}</p>}
           <textarea
-          className
+            className
             name="message"
             placeholder="Message"
             value={formData.message}

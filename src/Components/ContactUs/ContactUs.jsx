@@ -17,22 +17,20 @@ const ContactUs = () => {
           <div className="contact">
             <p>
               <EmailIcon />
-              <a href="mailto:emiliankasemi@gmail.com">
-                emiliankasemi@gmail.com
-              </a>
+              <a href="mailto:emiliankasemi@gmail.com">info@thrid.eu</a>
             </p>
             <p>
               <PhoneIcon />
-              <a href="tel:355688097086">(355) 68809 7086</a>
+              <a href="tel:447494513369">(44) 7494513369</a>
             </p>
             <p>
               <WhatsAppIcon />
               <a
-                href="https://api.whatsapp.com/send?phone=355688097086"
+                href="https://api.whatsapp.com/send?phone=447494513369"
                 target="_blank"
                 rel="noreferrer"
               >
-                (355) 68809 7086
+                (44) 7494513369
               </a>
             </p>
           </div>
