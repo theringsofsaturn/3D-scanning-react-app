@@ -23,11 +23,11 @@ function App() {
         <HomeComp />
         <AboutUsComp />
         <PopUp />
-        <Services />
         <BenefitsComp />
+        <Services />
         <Gallery />
-        <Work />
         <FeaturesComp />
+        <Work />
         <Cta_section />
         <ContactUs />
         <Footer />

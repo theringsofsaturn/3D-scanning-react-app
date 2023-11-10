@@ -23,7 +23,12 @@ const cta_section = () => {
               demos. See firsthand how our technology revolutionizes spatial
               exploration.
             </p>
-            <button href="#contact">Request a Demo</button>
+            <a
+              href="mailto:emiliankasemi@gmail.com?subject=Request%20for%20Demo"
+              className="cta-button"
+            >
+              Request a Demo
+            </a>
           </div>
         </div>
       </div>

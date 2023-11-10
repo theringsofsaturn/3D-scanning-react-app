@@ -55,7 +55,7 @@ const Form = () => {
       emailjs
         .sendForm(
           "emiliankasemi@gmail.com",
-          "template_thrid",
+          "template_m5l6wr2",
           form.current,
           "5zVfhEo2E4976_CIU"
         )

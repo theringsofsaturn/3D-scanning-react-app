@@ -11,7 +11,7 @@ import Phone from "./Phone.png";
 import AboutUs from "./about_us.jpg";
 import OurVision from "./our_vision.jpg";
 import Benefits from "./benefits_backgroung.jpg";
-import BlacklLogo from "./Svg/black-logo.svg";
+import BlacklLogo from "./black-logo.svg";
 import BannerImg from "./banner_image.jpg";
 
 export const images = {
