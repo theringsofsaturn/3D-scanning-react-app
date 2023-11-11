@@ -62,6 +62,9 @@ function NavbarComp() {
               <a href="#how-works">How it Works</a>{" "}
             </li>
             <li>
+              <a href="#features">Features</a>{" "}
+            </li>
+            <li>
               <a href="#get-in-touch">Request Demo</a>{" "}
             </li>
             <li>

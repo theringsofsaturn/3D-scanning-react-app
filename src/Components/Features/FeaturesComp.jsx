@@ -61,7 +61,7 @@ const featuresData = [
 
 function FeaturesComp() {
   return (
-    <div className="features-section">
+    <div className="features-section" id="features">
       <h2 className="features-headline">Features</h2>
       <div className="features-container" id="features">
         {featuresData.map((feature, index) => (

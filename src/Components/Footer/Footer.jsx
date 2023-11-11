@@ -64,7 +64,7 @@ const Footer = () => {
                   <LinkedInIcon sx={{ fontSize: 40 }} />
                 </a>
               </div>
-              <span>Instagram</span>
+              <span>LinkedIn</span>
             </div>
             <div className="button">
               <a href="mailto:info@thrid.eu">
@@ -76,7 +76,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div classNameName="copyright_sec">
+        <div className="copyright_sec">
           {" "}
           <CopyrightIcon />
           2023 Powered by{" "}
