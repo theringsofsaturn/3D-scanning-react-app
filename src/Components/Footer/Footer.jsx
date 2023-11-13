@@ -6,7 +6,6 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import EmailRoundedIcon from "@mui/icons-material/EmailRounded";
 
-// css file
 import "./Footer.css";
 import "animate.css";
 const Footer = () => {
