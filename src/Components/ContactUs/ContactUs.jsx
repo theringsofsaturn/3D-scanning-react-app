@@ -7,34 +7,34 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 import "./ContactUs.css";
 const ContactUs = () => {
-  return (
-    <>
-      <div id="contact" className="contact-container">
-        <Form />
-        <div>
-          <h4 className="heading-text">Contact Us</h4>
+	return (
+		<>
+			<div id="contact" className="contact-container">
+				<Form />
+				<div>
+					<h4 className="heading-text">Contact Us</h4>
 
-          <div className="contact">
-            <p>
-              <EmailIcon />
-              <a href="mailto:emiliankasemi@gmail.com">info@thrid.eu</a>
-            </p>
-            <p>
-              <PhoneIcon />
-              <a href="tel:447494513369">(44) 7494513369</a>
-            </p>
-            <p>
-              <WhatsAppIcon />
-              <a
-                href="https://api.whatsapp.com/send?phone=447494513369"
-                target="_blank"
-                rel="noreferrer"
-              >
-                (44) 7494513369
-              </a>
-            </p>
-          </div>
-          {/* <div class="container">
+					<div className="contact">
+						<p>
+							<EmailIcon />
+							<a href="mailto:info@thrid.eu">info@thrid.eu</a>
+						</p>
+						<p>
+							<PhoneIcon />
+							<a href="tel:447494513369">(44) 7494513369</a>
+						</p>
+						<p>
+							<WhatsAppIcon />
+							<a
+								href="https://api.whatsapp.com/send?phone=447494513369"
+								target="_blank"
+								rel="noreferrer"
+							>
+								(44) 7494513369
+							</a>
+						</p>
+					</div>
+					{/* <div class="container">
   <p>We Are </p>
   <section class="animation">
     <div class="first"><div>Versatile</div></div>
@@ -42,10 +42,10 @@ const ContactUs = () => {
     <div class="third"><div>3D Experts</div></div>
   </section>
 </div> */}
-        </div>
-      </div>
-    </>
-  );
+				</div>
+			</div>
+		</>
+	);
 };
 
 export default ContactUs;
