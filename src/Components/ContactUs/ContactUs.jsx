@@ -21,12 +21,12 @@ const ContactUs = () => {
 						</p>
 						<p>
 							<PhoneIcon />
-							<a href="tel:447494513369">(39) 3517376481</a>
+							<a href="tel:393517376481">(39) 3517376481</a>
 						</p>
 						<p>
 							<WhatsAppIcon />
 							<a
-								href="https://api.whatsapp.com/send?phone=447494513369"
+								href="https://api.whatsapp.com/send?phone=393517376481"
 								target="_blank"
 								rel="noreferrer"
 							>
