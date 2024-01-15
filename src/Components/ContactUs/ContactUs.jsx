@@ -21,7 +21,7 @@ const ContactUs = () => {
 						</p>
 						<p>
 							<PhoneIcon />
-							<a href="tel:447494513369">(44) 7494513369</a>
+							<a href="tel:447494513369">(39) 3517376481</a>
 						</p>
 						<p>
 							<WhatsAppIcon />
@@ -30,7 +30,7 @@ const ContactUs = () => {
 								target="_blank"
 								rel="noreferrer"
 							>
-								(44) 7494513369
+								(39) 3517376481
 							</a>
 						</p>
 					</div>
