@@ -54,7 +54,7 @@ const Form = () => {
 			// Form is valid, proceed to send email
 			emailjs
 				.sendForm(
-					"info@thrid.eu",
+					"default_service",
 					"template_thrid",
 					form.current,
 					"5zVfhEo2E4976_CIU"
