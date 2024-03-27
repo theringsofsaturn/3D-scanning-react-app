@@ -1,5 +1,13 @@
 # Thrid EU Application
 
+<img width="1710" alt="Screenshot 2024-02-24 at 03 34 46" src="https://github.com/theringsofsaturn/3D-scanning-react-app/assets/60050952/694d672d-3d0f-4634-a925-e8e4b10c90b1">
+<img width="1710" alt="Screenshot 2024-02-24 at 03 35 11" src="https://github.com/theringsofsaturn/3D-scanning-react-app/assets/60050952/678b8ec3-a9cd-4095-b2ac-5712c5130469">
+<img wid<img width="1710" alt="Screenshot 2024-02-24 at 03 36 08" src="https://github.com/theringsofsaturn/3D-scanning-react-app/assets/60050952/93eee5ce-8186-4de3-90fa-43c093fe7574">
+<img width="1710" alt="Screenshot 2024-02-24 at 03 37 05" src="https://github.com/theringsofsaturn/3D-scanning-react-app/assets/60050952/090ebdd8-2aaa-498d-adfb-54acf11160d5">
+<img width="1710" alt="Screenshot 2024-02-24 at 03 36 51" src="https://github.com/theringsofsaturn/3D-scanning-react-app/assets/60050952/64397e67-723e-42a2-bba2-514a9406c771">
+<img width="1710" alt="Screenshot 2024-02-24 at 03 35 55" src="https://github.com/theringsofsaturn/3D-scanning-react-app/assets/60050952/f4fd7c28-e0b2-40d5-bd95-3ebd860f76f7">
+
+
 This is the official repository for the Thrid EU application, a modern web app built with the latest React version and Vite as a build tool.
 
 ## Features
